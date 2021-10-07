@@ -1,0 +1,12 @@
+ let a=10;
+ let b =20;
+ let c= 30;
+let Eq1 = a + (b * c) ;
+let Eq2 = (a % b) + c;
+let Eq3 = c +( a / b);
+let Eq4 = (a * b) + c;
+console.log("The Results Are : " + Eq1 +" "+ Eq2 +" " + Eq3 +" "+Eq4);
+let maximum = Math.max(Eq1, Eq2, Eq3, Eq4);
+let minimum = Math.min(Eq1, Eq2, Eq3, Eq4);
+console.log("Maximum is " + maximum);
+console.log("Minimum is " + minimum);
